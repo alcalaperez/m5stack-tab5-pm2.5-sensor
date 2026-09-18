@@ -14,6 +14,15 @@ touch-to-wake, and a touch OFF button. Every value is published over MQTT
 with Home Assistant auto-discovery — the device appears as **"Tab5 Air
 Quality"** with 15 sensor entities, no YAML required.
 
+## In real life
+
+| Front — the station running | Back — module stacked on the rear M5-BUS |
+|:---:|:---:|
+| ![Front of the mounted Tab5 showing the live PM2.5 dashboard](docs/Front.jpg) | ![Back of the Tab5 with the Module Air Quality stacked on the M5-BUS port](docs/Back.jpg) |
+
+One USB-C cable into the Tab5 powers the whole stack; the sensor takes its
+power from the bus (EXT_5V), no second cable, no battery.
+
 ## Hardware
 
 | Part | Role |
@@ -100,6 +109,8 @@ Tab5PM25Monitor/            the station: dashboard, MQTT, self-healing boot
 Tab5PM25Logger/             serial-only diagnostic instrument
   Tab5PM25Logger.ino
 docs/dashboard-preview.svg  rendered preview of the dashboard
+docs/Front.jpg              real-life photo, front (running station)
+docs/Back.jpg               real-life photo, back (stacked module)
 ```
 
 Key tunables at the top of the monitor sketch: `FLIP_DISPLAY` (180°
