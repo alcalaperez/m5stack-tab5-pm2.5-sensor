@@ -1,0 +1,14 @@
+# Arduino build output
+build/
+*.hex
+*.bin
+*.elf
+
+# Local credentials — never commit
+Tab5PM25Monitor/secrets.h
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <!-- Rendered preview of the Tab5PM25Monitor dashboard (values from a real session log) -->
+  <rect width="1280" height="720" fill="#000000"/>
+
+  <!-- Header -->
+  <text x="20" y="38" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#7B7B7B">PM2.5  ·  PMSA003</text>
+  <text x="1140" y="38" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#7B7B7B" text-anchor="end">19:42:05   12847 frames</text>
+  <rect x="1160" y="8" width="100" height="36" rx="8" fill="#800000"/>
+  <text x="1210" y="34" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">OFF</text>
+
+  <!-- LEFT: status + big number + unit -->
+  <text x="358" y="162" font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="#00E676" text-anchor="middle">GOOD</text>
+  <text x="358" y="400" font-family="Consolas, 'Courier New', monospace" font-size="190" font-weight="bold" fill="#00E676" text-anchor="middle">9</text>
+  <text x="358" y="470" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#7B7B7B" text-anchor="middle">ug/m3  PM2.5</text>
+
+  <!-- MIDDLE: PM channels + AQI + connectivity -->
+  <text x="589" y="190" font-family="Arial, sans-serif" font-size="34" font-weight="bold" fill="#FFFFFF">PM1.0</text>
+  <text x="729" y="190" font-family="Arial, sans-serif" font-size="34" font-weight="bold" fill="#FFFFFF">   2 ug/m3</text>
+  <text x="589" y="272" font-family="Arial, sans-serif" font-size="34" font-weight="bold" fill="#FFFFFF">PM10</text>
+  <text x="729" y="272" font-family="Arial, sans-serif" font-size="34" font-weight="bold" fill="#FFFFFF">  10 ug/m3</text>
+  <text x="589" y="325" font-family="Arial, sans-serif" font-size="24" fill="#7B7B7B">30 s rolling average</text>
+  <text x="589" y="400" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#7B7B7B">US EPA AQI</text>
+  <text x="589" y="465" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#00E676">37</text>
+  <text x="589" y="502" font-family="Arial, sans-serif" font-size="18" fill="#7B7B7B">WiFi 192.168.1.42   MQTT connected</text>
+
+  <!-- RIGHT: particle size bands -->
+  <text x="973" y="125" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#00FFFF">um bands / 0.1 L</text>
+  <g font-family="Arial, sans-serif" font-size="24">
+    <text x="973" y="176" fill="#7B7B7B">0.3-0.5</text><text x="1063" y="176" fill="#FFFFFF">  583</text>
+    <text x="973" y="226" fill="#7B7B7B">0.5-1.0</text><text x="1063" y="226" fill="#FFFFFF">  197</text>
+    <text x="973" y="276" fill="#7B7B7B">1.0-2.5</text><text x="1063" y="276" fill="#FFFFFF">   39</text>
+    <text x="973" y="326" fill="#7B7B7B">2.5-5</text><text x="1063" y="326" fill="#FFFFFF">   21</text>
+    <text x="973" y="376" fill="#7B7B7B">5-10</text><text x="1063" y="376" fill="#FFFFFF">    0</text>
+    <text x="973" y="426" fill="#7B7B7B">&gt;10</text><text x="1063" y="426" fill="#FFFFFF">    0</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#7B7B7B">
+    <text x="973" y="480">SoC 43.2C   V 1.85   A 0.00</text>
+    <text x="973" y="504">0.0W   RSSI -58dBm</text>
+  </g>
+
+  <!-- BOTTOM: ~20 min history graph -->
+  <g fill="#00E676">
+    <rect x="20"  y="672" width="8" height="32"/><rect x="50"  y="678" width="8" height="26"/>
+    <rect x="80"  y="666" width="8" height="38"/><rect x="110" y="684" width="8" height="20"/>
+    <rect x="140" y="660" width="8" height="44"/><rect x="170" y="672" width="8" height="32"/>
+    <rect x="200" y="690" width="8" height="14"/><rect x="230" y="678" width="8" height="26"/>
+    <rect x="260" y="654" width="8" height="50"/><rect x="290" y="672" width="8" height="32"/>
+    <rect x="320" y="684" width="8" height="20"/><rect x="350" y="660" width="8" height="44"/>
+    <rect x="380" y="648" width="8" height="56"/><rect x="410" y="672" width="8" height="32"/>
+    <rect x="440" y="678" width="8" height="26"/><rect x="470" y="666" width="8" height="38"/>
+    <rect x="500" y="690" width="8" height="14"/><rect x="530" y="660" width="8" height="44"/>
+    <rect x="560" y="654" width="8" height="50"/><rect x="590" y="672" width="8" height="32"/>
+    <rect x="620" y="684" width="8" height="20"/><rect x="650" y="666" width="8" height="38"/>
+    <rect x="680" y="660" width="8" height="44"/><rect x="710" y="678" width="8" height="26"/>
+    <rect x="740" y="690" width="8" height="14"/><rect x="770" y="666" width="8" height="38"/>
+    <rect x="800" y="672" width="8" height="32"/><rect x="830" y="684" width="8" height="20"/>
+    <rect x="860" y="678" width="8" height="26"/><rect x="890" y="660" width="8" height="44"/>
+    <rect x="920" y="672" width="8" height="32"/><rect x="950" y="690" width="8" height="14"/>
+    <rect x="980" y="678" width="8" height="26"/><rect x="1010" y="666" width="8" height="38"/>
+    <rect x="1040" y="672" width="8" height="32"/><rect x="1070" y="684" width="8" height="20"/>
+    <rect x="1100" y="678" width="8" height="26"/><rect x="1130" y="660" width="8" height="44"/>
+    <rect x="1160" y="672" width="8" height="32"/><rect x="1190" y="678" width="8" height="26"/>
+    <rect x="1220" y="684" width="8" height="20"/><rect x="1250" y="690" width="8" height="14"/>
+  </g>
+  <line x1="20" y1="704" x2="1260" y2="704" stroke="#7B7B7B" stroke-width="2"/>
+  <text x="20" y="718" font-family="Arial, sans-serif" font-size="18" fill="#7B7B7B">PM2.5 last ~20 min   scale 0-20 ug/m3</text>
+</svg>
